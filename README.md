@@ -3,6 +3,7 @@ Esse é um projetinho em HTML, CSS e Java JavaScript feito para te lembrar de ev
 Além disso, ele não só mostra a contagem na tela, como também toca um som, envia uma notificação, vibra (em celulares) e até mostra onde você estava quando criou o evento (com sua permissão, claro).
 
 Funcionalidades:
+    
     Contagem regressiva em tempo real para qualquer evento
 
     Notificação na área de trabalho quando o evento começa
@@ -14,6 +15,7 @@ Funcionalidades:
     Modo escuro para quem prefere uma pegada mais noturna
 
 Como usar:
+    
     Abra o arquivo index.html em qualquer navegador moderno.
 
     Digite o nome do evento.
@@ -27,6 +29,7 @@ Como usar:
 Quando o momento chegar, você será avisado com notificação, som e vibração (se estiver num celular).
 
 Tecnologias e APIs usadas:
+    
     HTML, CSS e JavaScript puro
 
     Notifications API – para te avisar quando o evento chegar
@@ -34,6 +37,7 @@ Tecnologias e APIs usadas:
     Vibration API – pra vibrar no celular
 
 Observações importantes:
+    
     A localização só funciona se o site estiver rodando em localhost ou via HTTPS.
 
     Algumas permissões (como notificação e geolocalização) precisam ser aceitas pelo usuário.
@@ -41,6 +45,7 @@ Observações importantes:
     A vibração funciona apenas em dispositivos compatíveis (como smartphones Android).
 
 Extras:
+   
     Você pode alternar entre o modo claro e escuro clicando em um botão (ótimo para usar de noite).
 
     O projeto roda direto no navegador, sem necessidade de instalar nada.
