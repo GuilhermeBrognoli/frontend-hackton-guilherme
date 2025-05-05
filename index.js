@@ -54,13 +54,6 @@ new Notification("🎉 Chegou a hora!", {
     });
 }
 
-//Notifiação do Windows quando chegar na data      
-if (Notification.permission === "granted") {
-    new Notification("🎉 Chegou a hora!", {
-        body: `O evento "${nomeEvento}" começou.`,
-    });
-}
-
 // Vibração do dispositivo 
 if ("vibrate" in navigator) {
     navigator.vibrate([500, 200, 500]); // Vibra, pausa, vibra
