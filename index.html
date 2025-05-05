@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contador Regressivo Personalizado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>A contagem começa agora:</h1>
+    <label for="evento">Nome do Evento:</label><br>
+    <input type="text" id="evento" placeholder="Ex: Trabalho de Frontend"><br>
+    
+    <label for="dataHora">Data e Hora do Evento:</label><br>
+    <input type="datetime-local" id="dataHora"><br>
+    
+    <button onclick="iniciarContador()">Iniciar Contador</button>
+
+    <h2 id="nomeEvento"></h2>
+    <div id="contador"></div>
+    
+    <button  id="dark" onclick="alternarModo()">🌙Modo Escuro</button>
+  
+    <script src="index.js"></script>
+</body>
+
+</html>

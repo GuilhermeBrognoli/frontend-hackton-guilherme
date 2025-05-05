@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #b1235e00;
+    
+    
+  }
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #contador {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #c41f1f;
+    
+    
+  }
+  .dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  #dark {
+  position: fixed; 
+  top: 10px;       
+  right: 10px;    
+  padding: 10px 10px;
+  font-size: 1em;
+  background-color: #fffffff6;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  transition: transform 0.2 ease;
+  cursor: pointer;
+}
