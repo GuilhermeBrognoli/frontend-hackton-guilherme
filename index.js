@@ -85,19 +85,3 @@ intervalo = setInterval(atualizarContador, 1000);
 function alternarModo() {
   document.body.classList.toggle("dark-mode");
 }
-// Obtendo a geolocalização do usuário
-if ("geolocation" in navigator) {
-    navigator.geolocation.getCurrentPosition(
-        position => {
-            const latitude = position.coords.latitude;
-            const longitude = position.coords.longitude;
-            document.getElementById("localizacao").textContent = 
-                `Localização ao criar o evento: Lat ${latitude.toFixed(4)}, Lng ${longitude.toFixed(4)}`;
-        },
-        erro => {
-            console.warn("Não foi possível obter a localização:", erro.message);
-        }
-    );
-} else {
-    console.warn("Geolocalização não é suportada neste navegador.");
-}
